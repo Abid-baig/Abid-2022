@@ -13,23 +13,25 @@ Server:
 Accept a public key submission via an HTTP request with password authentication.
 Verify the authenticity of a signed message.
 Installation
+
 1. Clone the Repository
-git clone https://github.com/YourGitHubUsername/YourFirstName-2022.git
-cd YourFirstName-2022
+   git clone https://github.com/Abid-baig/Abid-2022
+   cd Abid-2022
 2. Install Dependencies
-Make sure you have Node.js installed. Then, install the required packages:
+   Make sure you have Node.js installed. Then, install the required packages:
 
 npm install
 Usage
+
 1. Start the Server
-To start the server, run:
+   To start the server, run:
 
 node server.js <your-password>
 Replace <your-password> with the password you want to use for authentication.
 
 2. Client Commands
-Generate a Key Pair
-To generate an RSA key pair:
+   Generate a Key Pair
+   To generate an RSA key pair:
 
 node client.js generate-keys
 This will create public_key.pem and private_key.pem files in the project directory.
